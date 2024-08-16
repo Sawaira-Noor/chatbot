@@ -1,0 +1,467 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #01011A;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background-color: #01011A;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.logo img {
+    width: 50px;
+    height: 30px;
+  
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 150px;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #01011A;
+}
+
+.nav-icons i {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.profile-pic img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px 60px;
+    
+}
+
+/* Main Container Styles */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Dashboard Section */
+.dashboard {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dashboard-heading {
+    background-color: #0B85F4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-heading i {
+    background-color: #ffffff;
+    color: #000080;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.dashboard-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f4f8;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.dashboard-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.dashboard-btn:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+
+/* .dashboard-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} */
+
+.dashboard-items li {
+    font-size: 20px;
+    margin-left: 35px;
+    color: black;
+    display: flex;
+    line-break: 30px;
+    align-items: center;
+}
+
+.dashboard-items i {
+    margin-right: 10px;
+}
+
+/* Performance Chart Section */
+.performance-chart {
+    width: 45%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    
+  
+    
+   
+    font-weight: 700;
+    background-color: #0B85F4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    font-size: 26px;
+    
+   
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left-icons i,
+.right-icons i {
+    font-size: 20px;
+    font-weight: 00;
+    font-style: bold;
+}
+
+.chart-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-info {
+    text-align: center;
+}
+
+.student-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px double #c914ba;
+}
+
+.student-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.subject-progress {
+    flex: 1;
+    margin-left: 20px;
+    
+}
+
+.subject-progress p {
+    margin: 10px 0 5px;
+    font-size: 14px;
+  
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #050303;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.progress-bar.math {
+    background: linear-gradient(#1D5AF1,#EC3BDE);
+    width: 90%; 
+    
+}
+
+.progress-bar.chemistry {
+    background: linear-gradient(#1D5AF1,#02AAF5);
+    width: 80%; 
+}
+
+.progress-bar.physics {
+    background: linear-gradient(#1D5AF1,#02AAF5);
+    width: 70%; 
+}
+
+.progress-bar.creativity {
+    background: linear-gradient(#1D5AF1,#02AAF5);
+    width: 87%; 
+}
+
+.statistics {
+    flex: 1;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.stat-bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.stat-bar {
+    width: 20px; /* Adjust width as needed */
+    height: 60px;
+    margin: 0 5px;
+    background-color: #c914ba; /* Use blue for the background */
+    border-radius: 5px;
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #e10bf4; /* Blue box background */
+    height: 30px;
+    border-radius: 5px;
+}
+
+  
+  .stat-bar {
+    padding: 5px;
+    width: 5px;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+ 
+  .stat-bar.blue {
+    background-color: #007bff;
+    margin-right: 5px;
+  }
+  
+  .stat-bar.red {
+    background-color: #16a8c2;
+    margin-right: 5px;
+  }
+  
+  .stat-bar.green {
+    background-color:#007bff ;
+    margin-right: 5px;
+  }
+  .stat.blue {
+    background-color: #007bff;
+    margin-right: 5px;
+  }
+  
+  .stat.red {
+    background-color: #16a8c2;
+    margin-right: 5px;
+  }
+  
+  .stat.green {
+    background-color: #f5f5f5;
+    margin-right: 5px;
+  }
+
+.chart-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart-footer div {
+    text-align: center;
+}
+
+.chart-footer img {
+    width: 120px;
+    height: 120px;
+}
+
+.chart-footer p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Budget Section */
+.budget-section {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.budget-heading {
+    background-color: #0B85F4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.badge-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F738D8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #000080;
+}
+
+
+.badge-item {
+    width: 60px;
+    height: 60px;
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.badge-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.progress-report {
+    text-align: center;
+}
+
+.progress-heading {
+    background-color:#F738D8;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.progress-item {
+    display: flex;
+    
+}
+
+.progress-item i {
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #02020e;
+}
+
+
+.progress-details {
+    flex: 1;
+}
+
+.progress-details span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.progress-bar.skill {
+    background: linear-gradient(to right,#1D5AF1,#02AAF5);
+}
+
+.progress-bar.acquisition {
+    background: linear-gradient(to right,#1D5AF1,#02AAF5);
+}
+
+.progress-bar.happiness {
+    background: linear-gradient(to right,#1D5AF1,#02AAF5);
+}
+
+.progress-bar.interaction {
+    background: linear-gradient(to right,#1D5AF1,#02AAF5);
+}
+
+.progress-bar.completion {
+    background: linear-gradient(to right,#1D5AF1,#02AAF5);
+}
+
+/* General Layout */
+.main-container > div {
+    margin: 0 10px;
+    border-radius: 15px;
+}

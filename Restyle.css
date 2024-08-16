@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0.5); /* Yellow color with opacity */
+    font-family: 'Arial', sans-serif;
+}
+
+.coming-soon-container {
+    text-align: center;
+    color: #0044cc; /* Blue text color */
+    background-color: rgba(255, 255, 255, 0.7); /* Light background for text */
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.coming-soon-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.coming-soon-container p {
+    font-size: 20px;
+}
+
+.coming-soon-container:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
